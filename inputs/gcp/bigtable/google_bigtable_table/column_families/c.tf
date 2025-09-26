@@ -5,3 +5,7 @@ resource "google_bigtable_table" "c123" {
     family = "c123"
   }
 }
+
+variable "project" {
+  type = string
+}
