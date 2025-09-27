@@ -7,7 +7,3 @@ resource "google_bigtable_gc_policy" "c123" {
     days = 7
   }
 }
-
-variable "project" {
-  type = string
-}

@@ -7,7 +7,3 @@ resource "google_bigtable_app_profile" "c123" {
     allow_transactional_writes = true
   }
 }
-
-variable "project" {
-  type = string
-}

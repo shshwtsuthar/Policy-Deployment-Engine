@@ -7,7 +7,3 @@ resource "google_bigtable_instance" "c123" {
     zone       = "us-central1-a"
   }
 }
-
-variable "project" {
-  type = string
-}

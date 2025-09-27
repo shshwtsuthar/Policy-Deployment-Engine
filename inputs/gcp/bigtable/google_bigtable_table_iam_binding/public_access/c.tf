@@ -6,7 +6,3 @@ resource "google_bigtable_table_iam_binding" "c123" {
     "user:admin@example.com",
   ]
 }
-
-variable "project" {
-  type = string
-}
